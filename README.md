@@ -15,10 +15,12 @@ Get the input matrix
 Print the result.
 
 ## Program:
+```
 import numpy as np
 A = np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
 values,vectors=np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
+```
 ## Output:
 ![output](/IMAGES/img.png)
 ## Result:
